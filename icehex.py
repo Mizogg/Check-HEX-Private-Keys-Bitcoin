@@ -1,19 +1,13 @@
 import secp256k1 as ice
-import multiprocessing
-from multiprocessing import pool, Event, Process, Queue, Value, cpu_count
-import random, codecs, time, sys, smtplib
-from time import sleep
 from rich.console import Console
-gmail_user = 'youremal@gmail.com'
-gmail_password = 'yourpassword'
 console = Console()
 console.clear()
 
-console.print("\n[yellow]💰-----------------💰 HUNT4BITCOIN ICEHEX with Python 💰----------------------💰[/yellow]")
-console.print("[yellow]   🤖🤖🤖 Made by Mizogg  🤖🤖🤖[/yellow]")
-console.print("[yellow]    🤩 With iceland2k14 secp256k1 https://github.com/iceland2k14/secp256k1  🤩 [/yellow]")
-console.print("[yellow]💰-----------------💰 HUNT4BITCOIN  ICEHEX with Python 💰----------------------💰[/yellow]")
-console.print("[purple]         ⏳Starting search... Please Wait ⏳[/purple]")
+console.print("\n[yellow]   💰-----------------💰 HUNT4BITCOIN ICEHEX with Python 💰----------------------💰[/yellow]")
+console.print("[yellow]                      🤖🤖🤖 Made by Mizogg  🤖🤖🤖[/yellow]")
+console.print("[yellow]         🤩 With iceland2k14 secp256k1 https://github.com/iceland2k14/secp256k1  🤩 [/yellow]")
+console.print("[yellow]     💰-----------------💰 HUNT4BITCOIN  ICEHEX with Python 💰----------------------💰[/yellow]")
+console.print("[purple]                         ⏳Starting search... Please Wait ⏳[/purple]")
 
 print('Bitcoin Addresses Loading Please Wait: ')
 filename ='80000.txt'
